@@ -1,0 +1,48 @@
+name: Deploy Python Script to GCP
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: prod
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Create env-vars.yaml from GitHub secrets
+        run: |
+          echo "GCP_SA_KEY: '${{ secrets.GCP_SA_KEY }}'" > env-vars.yaml
+          echo "MONGODB_COLLECTION_NAME: '${{ secrets.MONGODB_COLLECTION_NAME }}'" >> env-vars.yaml
+          echo "MONGODB_DB_NAME: '${{ secrets.MONGODB_DB_NAME }}'" >> env-vars.yaml
+          echo "MONGODB_URI: '${{ secrets.MONGODB_URI }}'" >> env-vars.yaml
+          echo "OPENAI_API_KEY: '${{ secrets.OPENAI_API_KEY }}'" >> env-vars.yaml
+          echo "REDIS_HOST: '${{ secrets.REDIS_HOST }}'" >> env-vars.yaml
+          echo "REDIS_PASSWORD: '${{ secrets.REDIS_PASSWORD }}'" >> env-vars.yaml
+          echo "REDIS_PORT: '${{ secrets.REDIS_PORT }}'" >> env-vars.yaml
+          echo "REDIS_USERNAME: '${{ secrets.REDIS_USERNAME }}'" >> env-vars.yaml
+          echo "UNSPLASH_ACCESS_KEY: '${{ secrets.UNSPLASH_ACCESS_KEY }}'" >> env-vars.yaml
+
+      - name: Authenticate with GCP
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: '${{ secrets.GCP_SA_KEY }}'
+
+      - name: Deploy to GCP (Cloud Function)
+        run: |
+          gcloud config set project lovelytrails
+          gcloud functions deploy lovelytrails-itinerary-generator \
+            --runtime python311 \
+            --trigger-http \
+            --source . \
+            --entry-point trigger \
+            --env-vars-file env-vars.yaml

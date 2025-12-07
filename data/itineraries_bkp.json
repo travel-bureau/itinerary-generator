@@ -1,0 +1,155 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "trip_title": "Dubai - 6 Days Trip",
+      "trip_dates": "03 Feb 2026 - 08 Feb 2026",
+      "traveler_name": "Ashok",
+      "pax": "6 Adults + 3 Children (7y, 3y & 1 infant)",
+      "tour_costs": {
+        "Adult": "Rs.48,500",
+        "Child": "Rs.35,000",
+        "Infant": "Rs.16,000"
+      },
+      "inclusions": [
+        "5N stays at Hotel",
+        "Daily Breakfast",
+        "All entry tickets mentioned in itinerary",
+        "Private Cabs for transfers",
+        "Sightseeing as per itinerary",
+        "All hotel taxes",
+        "Visa Charges",
+        "Tourist Dirham"
+      ],
+      "exclusions": [
+        "Flight fare",
+        "Meals other than mentioned",
+        "Personal expenses",
+        "Optional Activities"
+      ],
+      "destination": "Dubai",
+      "itinerary_text": "Dubai - 6 Days Trip\n\nName: Ashok \nPax: 6 Adults + 3 Child (7, 3 year & 1 infant)\nDate: 03 Feb 2026 - 08 Feb 2026\n\nDay 1: Arrival at Sharjah Airport to Deira/ Bur Dubai Hotel + Half Day Dubai city tour + Dhow cruise marina with Dinner - Pvt.\nDay 2: Miracle Garden + Burj Khalifa 124th & 125th floor non-prime Hr. + Dubai Aquarium and Underwater Zoo - Pvt.\nDay 3: Ski Dubai - Snow plus + Standard Desert safari with BBQ dinner - Pvt.\nDay 4: Visit Global Village - Pvt.\nDay 5: Visit Dubai Frame + Dolphinarium and Seal Show. Departure from Deira/ Bur Dubai Hotel to DXB Airport"
+    },
+    {
+      "id": 2,
+      "trip_title": "Phuket - 5 Days Trip",
+      "trip_dates": "28 Sep 2025 - 02 Oct 2025",
+      "traveler_name": "Parani",
+      "pax": "14 Adult + 1 kid",
+      "tour_costs": {
+        "Adult": "Rs.36,000",
+        "Child": "Rs.16,000"
+      },
+      "inclusions": [
+        "4N stay at Hotels",
+        "Daily Breakfast",
+        "Entry tickets for mentioned attractions points",
+        "All transfers by AC Cab",
+        "National park fee",
+        "Speedboat & Yacht Trips",
+        "Sightseeing as per itinerary"
+      ],
+      "exclusions": [
+        "Flight fare",
+        "Visa Charges",
+        "Meals other than mentioned",
+        "Personal expenses",
+        "Optional Activities"
+      ],
+      "destination": "Phuket",
+      "itinerary_text": "Phuket - 5 Days Trip\n\nName: Parani \nPax: 14 Adult + 1 kid\nDate: 28 Sep 2025 - 02 Oct 2025\n\nDay 1: Transfer from HKT APT – HKT HTL  - PVT Evening Siam Niramit show with dinner & transfer PVT.\nDay 2: Phi Phi Island and Khai Island by Speedboat incl. island fee - SIC.\nDay 3: Tiger Park incl. entry ticket. 10 platform Zipline, Aquaria Phuket, Old Phuket Town -  PVT.\nDay 4: Afternoon Sunset Yacht Sailing -  SIC.\nDay 5: Dolphin show with ticket & transfer - PVT. Transfer from HKT HTL – HKT APT - PVT"
+    },
+    {
+      "id": 3,
+      "trip_title": "Meghalaya Special 8 day Holiday",
+      "trip_dates": "28 Sep 2025 - 02 Oct 2025",
+      "traveler_name": "Varsha",
+      "pax": "3 Adults",
+      "tour_costs": {
+        "Adult": "Rs.98,000"
+      },
+      "inclusions": [
+        "Stay at above mentioned hotels",
+        "Private cab for sightseeing",
+        "Daily Breakfast",
+        "Jungle jeep safari (pobitora)",
+        "Bharamaputra sunset cruise",
+        "Toll & Parking",
+        "All taxes"
+      ],
+      "exclusions": [
+        "All meals unless mentioned",
+        "Entry Tickets at attractions",
+        "Personal expenses",
+        "Tips & incidentals",
+        "Optional activities unless mentioned under inclusions"
+      ],
+      "destination": "Meghalaya",
+      "itinerary_text": "Meghalaya Special 8 day Holiday\n\nName: Varsha \nPax: 3 Adults\nDate: 28 Sep 2025 - 02 Oct 2025\n\nDay 1: Arrival at Guwahati & Transfer to hotel Overnight stay at Guwahati. Accomodation at Pemaling Lords Eco Inn\nDay 2: Check-out after breakfast and visit Airforce Museum, Umaiam lake, Elephant Falls.Hotel check in and overnight stay at Cherrapunji. Accomodation at Escapade Inn.\nDay 3: Check out after breakfast and visit Weisawdong waterfalls (If Oprational) Nohkalikai Falls, Mawsmai Cave,Arwah cave,Single decker and double Decker Bridge,Overnight stay at Shillong Check out after breakfast and visit Weisawdong waterfalls (If Oprational) Nohkalikai Falls, Mawsmai Cave,Arwah cave,Single decker and double Decker Bridge,Overnight stay at Shillong. Accomodation at Pine Hill Homestay.\nDay 4: Hotel check-out,Bamboo Trekking or clean village drive to Dwaki.Night stay at Dawki Home stay or camp. Accomodation at Camp stay/home stay.\nDay 5: Dawki Activities, Visit Karangsuri waterfalls,And Transfer to Shillong overnight stay at Cordzz Inn. Accomodation at Cordzz's Inn.\nDay 6: Check out after breakfast and visit Phe phe falls and other local attractions and drive to Bharamaputra Jungle Resort. Accomodation at Bharamaputra Jungle resort.\nDay 7: Wake up and Refresh and drive to Pobitora Wildlife Sanctuary, Jeep Safari at Pobitora Evening  Bhramaputhta Sunset Cruise and proceed to Guwahati. Accomodation at Pohor Regency.\nDay 8: Early check out and visit Kamakhya Temple and Evening drop at Guwahati Airport"
+    },
+    {
+      "id": 4,
+      "trip_title": "Pattaya & Bangkok - 6D Trip",
+      "trip_dates": "01 Oct 2025 - 06 Oct 2025",
+      "traveler_name": "Karthick",
+      "pax": "4 Adults + 1 kid",
+      "tour_costs": {
+        "4 Adults + 1 kid": "Rs.2,35,000"
+      },
+      "inclusions": [
+        "Accommodation with breakfast as per above mentioned",
+        "3 way transfer Pvt to/from DMK APT",
+        "Coral island with lunch by speed boat SIC (Seat in Coach with other Tourist)",
+        "Pattaya tiger park with entry ticket + floating market incl. boat ride PVT (Private Transfers)",
+        "Safari World & Marine Park Entrance Tickets",
+        "Sanctuary of truth & art in paradise tickets - PVT (Private Transfers)",
+        "Chaopharaya princess dinner cruise - SIC",
+        "Bangkok Jurassic Park & Chocolate Villa entrance ticket",
+        "All hotel taxes"
+      ],
+      "exclusions": [
+        "Flight fare",
+        "On Arrival Visa (Free)",
+        "Meals other than mentioned",
+        "Optional activities",
+        "Personal expenses"
+      ],
+      "destination": "Pattaya & Bangkok",
+      "itinerary_text": "Pattaya & Bangkok - 6D Trip\n\nName: Karthick \nPax: 4 Adults + 1 kid\nDate: 01 Oct 2025 - 06 Oct 2025\n\nDay 1: Transfer from DMK APT – PTY HTL followed by breakfast at sri racha zoo no entry ticket + floating market including boat ride -  Pvt .Pattaya tiger park including entry ticket (Smallest size) &  Alcazar show with ticket & transfer Pvt.\nDay 2: Coral island with lunch by speed boat - SIC Sanctury of truth & art in paradise with ticket & transfer - Pvt.\nDay 3: Pattaya to Bangkok transfer enroute Safari World & Marine Park incl. lunch Private [Monday remain closed]\nDay 4: Bangkok Ancient city tour with entrance ticket - Pvt.\nEvening Chaopharaya princess dinner cruise - SIC.\nDay 5: Bangkok Jurassic Park experience day ticket followed by Chocolate Villa including entrance ticket  .Evening Mahanokom Sky Bridge at Sunset -  Pvt."
+    },
+    {
+      "id": 5,
+      "trip_title": "Singapore - 5 Days Trip",
+      "trip_dates": "17 Oct 2025 - 21 Oct 2025",
+      "traveler_name": "Kumar",
+      "pax": "6 Adults",
+      "tour_costs": {
+        "4 nights stay in Hotel Boss (★★★)": "Rs.55,500/- per person",
+        "4 nights stay in Orchard Rendezvous Hotel (★★★★)": "Rs.59,500/- per person",
+        "4 nights stay in One Farrer Hotel (★★★★★)": "Rs.66,500/- per person"
+      },
+      "inclusions": [
+        "04 nights stay at above mentioned the hotel with breakfast",
+        "Gardens by the Bay - Flower Dome + Cloud Forest",
+        "03 hours Singapore panoramic city drive",
+        "Marina Bay Sands Sky Park Observation Deck",
+        "Singapore Zoo with Tram Ride",
+        "Sentosa island tour (Wings of Time)",
+        "Bird Paradise",
+        "3 hrs Shopping transfer",
+        "Return airport transfers",
+        "All tours & transfer on private basis",
+        "Sightseeing as per itinerary"
+      ],
+      "exclusions": [
+        "Flight fare (15-22k pp)",
+        "Visa Charges (Rs.3500 pp)",
+        "Meals other than mentioned",
+        "Personal expenses",
+        "Optional activities"
+      ],
+      "destination": "Singapore",
+      "itinerary_text": "Singapore - 5 Days Trip\n\nName: Kumar \nPax: 6 Adults\nDate: 17 Oct 2025 - 21 Oct 2025\n\nDay 1: Singapore Arrival. Hotel Check-in at 2pm.  Evening Gardens by the Bay.\nDay 2: Singapore Panoromic Drive City Tour 3hrs, Afternoon break at Hotel, Evening Marina Bay Sand.\nDay 3: Singapore zoo, Afternoon break at Hotel, Evening Wings of Time at Sentosa.\nDay 4: Mandai Bird Park, Afternoon break at Hotel, Evening Shopping 3hrs - China Town & Little India.\nDay 5: Check-out at Noon. Transfer to Changi Airport. Explore by own - Jewel Changi Mall & Vortex Waterfall, explore airport attractions. Late evening flight."
+    }
+  ]
+}
