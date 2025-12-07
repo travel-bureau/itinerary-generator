@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Repo and environment config
-REPO="eric-stanley/lovelytrails-itinerary-generator"   # 🔁 Replace with your actual repo
+REPO=" travel-bureau/itinerary-generator"   # 🔁 Replace with your actual repo
 ENV_NAME="prod"                  # Target GitHub environment
 ENV_FILE_PATH=".env"
 
