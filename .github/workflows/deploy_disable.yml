@@ -39,8 +39,8 @@ jobs:
 
       - name: Deploy to GCP (Cloud Function)
         run: |
-          gcloud config set project lovelytrails
-          gcloud functions deploy lovelytrails-itinerary-generator \
+          gcloud config set project travel-bureau
+          gcloud functions deploy itinerary-generator \
             --runtime python311 \
             --trigger-http \
             --source . \

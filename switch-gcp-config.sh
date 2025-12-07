@@ -6,7 +6,7 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD)
 # Map branch to gcloud config name
 case "$BRANCH" in
   master)
-    CONFIG_NAME="lovelytrails"
+    CONFIG_NAME="travel-bureau"
     ;;
   *)
     echo "❌ No gcloud config mapped for branch: $BRANCH"
