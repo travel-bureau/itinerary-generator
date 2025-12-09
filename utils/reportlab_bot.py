@@ -86,10 +86,10 @@ def draw_page_elements(canvas, doc):
     canvas.setFillColorRGB(0.2, 0.2, 0.2)
 
     # Logo image (top-left)
-    logo_path = "logo/logo-black.png"
+    logo_path = "logo/logo.png"
     logo_width = 120
     logo_height = 60
-    logo_x = doc.leftMargin
+    logo_x = doc.leftMargin - 20
     logo_y = doc.height + doc.topMargin - 20
 
     canvas.drawImage(
@@ -109,7 +109,7 @@ def draw_page_elements(canvas, doc):
     # --- Footer ---
     canvas.setFont("FiraSans", 8)
     canvas.setFillColorRGB(0.4, 0.4, 0.4)
-    canvas.drawString(doc.leftMargin, 10, "www.lovelytrails.com | enjoy@lovelytrails.com")
+    canvas.drawString(doc.leftMargin, 10, "www.travel-bureau.com | enjoy@travel-bureau.com")
     canvas.drawRightString(doc.width + doc.leftMargin, 10, f"Page {canvas.getPageNumber()}")
 
     # --- Diagonal Watermark ---
@@ -126,7 +126,7 @@ def draw_page_elements(canvas, doc):
     canvas.rotate(45)
 
     # Draw watermark at origin
-    canvas.drawCentredString(0, 0, "LOVELY TRAILS")
+    canvas.drawCentredString(0, 0, "TRAVEL BUREAU")
     canvas.restoreState()
 
     # --- Border (tight to page edges) ---
@@ -570,7 +570,7 @@ def draw_summary_page(canvas, doc):
     canvas.saveState()
     canvas.setFont("FiraSans-Italic", 6)
     canvas.setFillColorRGB(0.4, 0.4, 0.4)
-    motto = "Lovely Trails guarantees absolutely smooth & hassle free holidays worldwide"
+    motto = "Travel Bureau guarantees absolutely smooth & hassle free holidays worldwide"
     canvas.drawRightString(doc.leftMargin + doc.width, doc.bottomMargin - 5, motto)
 
     # --- Barcode metadata ---

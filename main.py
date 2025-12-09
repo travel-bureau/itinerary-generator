@@ -104,7 +104,7 @@ def create_itinerary_pdf(itinerary_text, trip_title, trip_dates, traveler_name, 
     story.append(Paragraph(f"Traveler: {traveler_name}", styles["CenterHeading"]))
     story.append(Paragraph(f"Pax: {pax_details}", styles["CenterHeading"]))
     story.append(Spacer(1, 30))
-    story.append(Paragraph("Powered by LovelyTrails", styles["CenterHeading"]))
+    story.append(Paragraph("Powered by Travel Bureau", styles["CenterHeading"]))
     story.append(PageBreak())
 
     # ---- Itinerary Pages ----
