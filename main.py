@@ -150,7 +150,7 @@ async def main(request=None, source="local", cache_flag=True):
 
         except Exception as e:
             print(f"⚠️ Error: {e}")
-            return "❌ Failed to process request", 500
+            return "❌ Failed to process request!", 500
 
     if itinerary_data:
         with open("data/contact.json", "r", encoding="utf-8") as f:
