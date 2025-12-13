@@ -12,13 +12,14 @@ def initialize_unsplash():
     os.makedirs(CACHE_DIR, exist_ok=True)
     os.makedirs(IMAGE_CACHE_DIR, exist_ok=True)
 
-def fetch_image(query):
+def fetch_image(query, cacheFlag=False):
     """Fetch image from Unsplash or return cached/fallback image."""
     safe_query = query.replace(' ', '_')
     cache_path = os.path.join(IMAGE_CACHE_DIR, f"{safe_query}.jpg")
-    if os.path.exists(cache_path):
-        with open(cache_path, 'rb') as f:
-            return BytesIO(f.read())
+    if cacheFlag:
+        if os.path.exists(cache_path):
+            with open(cache_path, 'rb') as f:
+                return BytesIO(f.read())
     try:
         url = f"https://api.unsplash.com/photos/random?query={query}&client_id={UNSPLASH_ACCESS_KEY}"
         resp = requests.get(url)
