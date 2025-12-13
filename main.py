@@ -173,27 +173,27 @@ async def main(request=None, source="local", cache_flag=True):
             print(f"""
 🧳 Trip Summary
 ────────────────────────────────────────────
-📌 Trip ID       : {trip["id"]}
-📍 Title         : {trip["trip_title"]}
-📅 Dates         : {trip["trip_dates"]}
-👤 Traveler      : {trip["traveler_name"]}
-👥 Pax Details   : {trip["pax"]}
-🌍 Destination   : {trip["destination"]}
+📌 Trip ID       : {trip_id}
+📍 Title         : {trip_title}
+📅 Dates         : {trip_dates}
+👤 Traveler      : {traveler_name}
+👥 Pax Details   : {pax_details}
+🌍 Destination   : {destination}
 
 💰 Tour Costs
-{chr(10).join([f"  - {entity}: {cost}" for entity, cost in trip["tour_costs"].items()])}
+{chr(10).join([f"  - {entity}: {cost}" for entity, cost in tour_costs.items()])}
 
 ✅ Inclusions
-{chr(10).join([f"  - {item}" for item in trip["inclusions"]])}
+{chr(10).join([f"  - {item}" for item in inclusions])}
 
 ❌ Exclusions
-{chr(10).join([f"  - {item}" for item in trip["exclusions"]])}
+{chr(10).join([f"  - {item}" for item in exclusions])}
 
 📝 Itinerary
 ────────────────────────────────────────────
-{trip["itinerary_text"]}
+{itinerary_text}
 
-🧾 Use Cache     : {trip["useCache"]}
+🧾 Use Cache     : {cache_flag}
 """)
 
             # Generate PDF
