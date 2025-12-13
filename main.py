@@ -167,7 +167,8 @@ async def main(request=None, source="local", cache_flag=True):
             exclusions = trip["exclusions"]
             destination = trip["destination"]
             itinerary_text = trip["itinerary_text"]
-            cache_flag = trip["useCache"]
+            # ✅ use .get() with default True
+            cache_flag = trip.get("useCache", True)
 
             print(f"""
 🧳 Trip Summary
