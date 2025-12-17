@@ -143,7 +143,6 @@ async def main(request=None, source="local", cache_flag=True):
         with open("data/itineraries.json", "r", encoding="utf-8") as f:
             itinerary_data = json.load(f)
     else:
-        # TODO: Process request and prepare itinerary_data
         try:
             request_data = request.get_json(silent=True)
             itinerary_data = request_data
